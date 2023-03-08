@@ -7,7 +7,7 @@ public class CubeTester {
 
     @Test
     public void TestNoArgumentConstructorNoException() {
-        Cube cube = new Cube();
+        Cube cube = new Cube(1);
         assertTrue("Ensure that your no argument constructor has been implemented correctly!", cube.getSide() == 1);
     }
 
